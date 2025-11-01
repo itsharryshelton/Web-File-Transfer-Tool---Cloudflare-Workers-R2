@@ -1,0 +1,10 @@
+#This is the configuration file for the CF Worker.
+#You must update this before deploying otherwise it won't work :D
+
+name = "web-file-transfer"  #This name should match your Cloudflare Worker application name, otherwise you might get issues
+main = "index.js" #Make sure this path is correct, otherwise CF won't load
+compatibility_date = "2024-05-01"
+
+[[r2_buckets]]
+binding = "FILE_BUCKET" #This is the variable name used in the JS (e.g., env.FILE_BUCKET). Don't change.
+bucket_name = "bucket-name" #Change this to be your CF R2 Bucket name (Not the custom domain you might have linked, just the name)
