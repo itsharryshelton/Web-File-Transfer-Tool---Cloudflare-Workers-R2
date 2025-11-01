@@ -1,6 +1,9 @@
 # Web File Transfer Tool - Cloudflare Workers & R2
 A simple web interface template for transferring files via Cloudflare Workers &amp; R2 Bucket
 
+<img width="841" height="691" alt="image" src="https://github.com/user-attachments/assets/64e197f7-11f3-4f36-9ee4-6ba7f9c7ee75" />
+
+
 **Pre-Req:** Cloudflare R2 Bucket; preferrably a custom domain on your Cloudflare.
 
 ### How to setup:
